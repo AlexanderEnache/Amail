@@ -31,7 +31,7 @@
 
 	<body>
 	
-	<a href="ember.php" style="text-decoration:none">Logout</a>
+	<a href="/ember.php" style="text-decoration:none">Logout</a>
 	
 	<div>
 	

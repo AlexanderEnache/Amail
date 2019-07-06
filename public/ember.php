@@ -52,7 +52,7 @@
 				<input class='button' type="submit" name="submit" style="border-radius:20px;" value="login">
 				<br>
 				<br>
-				<a href='http://localhost:1234/demo/public/signup.php'>Dont have an account yet</a>
+				<a href='/signup.php'>Dont have an account yet</a>
 			</form>
 		</div>
 		
