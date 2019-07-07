@@ -18,7 +18,7 @@
 	
 	<?php
 		
-		$connection = mysqli_connect('localhost', 'root', '', 'login');
+		$connection = mysqli_connect('us-cdbr-iron-east-02.cleardb.net', 'b77cd357d78c16', 'd98eba5a', 'heroku_034f5952d66454c');
 		$query = "Select * from " . $_SESSION['username'] . " where id=" . $_GET['q'] . ';';
 		
 		$result = mysqli_query($connection, $query);

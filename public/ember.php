@@ -6,7 +6,7 @@
 		$username = $_POST["username"];
 		$password = $_POST["password"];
 		
-		$connection = mysqli_connect('localhost', 'root', '', 'login');
+		$connection = mysqli_connect('us-cdbr-iron-east-02.cleardb.net', 'b77cd357d78c16', 'd98eba5a', 'heroku_034f5952d66454c');
 		$query = "SELECT * FROM userlog where username = '$username' AND password = '$password'";
 	
 		$result = mysqli_query($connection, $query);
